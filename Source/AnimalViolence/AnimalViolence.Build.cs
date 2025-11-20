@@ -18,6 +18,7 @@ public class AnimalViolence : ModuleRules
 
         PrivateDependencyModuleNames.AddRange(new string[] { });
 
+        DynamicallyLoadedModuleNames.Add("OnlineSubsystemSteam");
         // Enable OnlineSubsystem modules like NULL/Steam/EOS by plugins
     }
 }
